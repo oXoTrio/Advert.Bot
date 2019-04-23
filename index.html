@@ -1,49 +1,91 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
 
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Advert</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Advert.Bot" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="AdvertBot" />
-<meta property="og:description" content="AdvertBot" />
-<link rel="canonical" href="https://oxotrio.github.io/advertbot/" />
-<meta property="og:url" content="https://oxotrio.github.io/advertbot/" />
-<meta property="og:site_name" content="advertbot" />
-<script type="application/ld+json">
-{"@type":"WebSite","url":"https://oxotrio.github.io/advertbot/","headline":"Advert","name":"advertbot","description":"AdvertBot","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>My First Bootstrap 4 Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#00b4f5">
-    <link rel="stylesheet" href="/advertbot/assets/css/style.css?v=c4f98a82efde9f7a267c9a71ae2fcec7844e733a">
-  </head>
-  <body style="background-color:#00b4f5;">
-    <section class="page-header">
-      <h1 class="project-name">advertbot</h1>
-      <h2 class="project-tagline">AdvertBot</h2>
-      
-        <a href="https://discordapp.com/api/oauth2/authorize?client_id=567829635081961512&permissions=8&scope=bot" class="btn">Add Advert To Your Server</a>
-      
-      
-    </section>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
 
-    <section class="main-content">
-      <h1 id="advertbot">Advert.Bot</h1>
-<p>AdvertBot</p>
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <h3>Some Links</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+</div>
 
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
 
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="https://github.com/oXoTrio/advertbot">advertbot</a> is maintained by <a href="https://github.com/oXoTrio">oXoTrio</a>.</span>
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
-    </section>
-
-    
-  </body>
+</body>
 </html>
